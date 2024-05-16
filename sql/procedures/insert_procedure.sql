@@ -8,5 +8,3 @@ BEGIN
     RETURN 'Insert successful';
 END;
 $$
-
-CALL insert_procedure();

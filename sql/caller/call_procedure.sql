@@ -1,0 +1,1 @@
+CALL insert_procedure();
