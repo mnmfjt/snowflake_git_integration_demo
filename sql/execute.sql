@@ -1,1 +1,1 @@
-EXECUTE IMMEDIATE FROM './caller/call_procedure.sql';
+INSERT INTO employees (id, name, role) VALUES (4, 'Tom', 'op');
