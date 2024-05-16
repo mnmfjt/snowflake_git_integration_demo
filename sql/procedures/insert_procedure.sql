@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE insert_procedure(value VARCHAR)
+CREATE OR REPLACE PROCEDURE insert_procedure()
 RETURNS STRING
 LANGUAGE SQL
 AS
@@ -8,3 +8,5 @@ BEGIN
     RETURN 'Insert successful';
 END;
 $$
+
+CALL insert_procedure();
