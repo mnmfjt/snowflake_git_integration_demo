@@ -1,1 +1,1 @@
-EXECUTE IMMEDIATE FROM './procedures/call_procedure.sql';
+EXECUTE IMMEDIATE FROM '../procedures/call_procedure.sql';
